@@ -38,7 +38,7 @@ export default function CommonModal({
                 leaveFrom="opacity-100"
                 leaveTo="opacity-0"
               >
-                <Dialog.Panel className="w-full sm:max-w-md mx-auto">
+                <Dialog.Panel className="w-screen sm:max-w-md mx-auto">
                   <div className="flex h-full flex-col overflow-y-scroll bg-white shadow-xl">
                     <div className="flex-1 overflow-y-auto px-4 py-6 sm:px-6">
                       {showModalTitle ? (

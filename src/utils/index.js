@@ -189,16 +189,16 @@ export const AvailableSizes = [
 ];
 
 export const firebaseConfig = {
-  apiKey: "API_KEY",
-  authDomain: "AUTH_DOMAIN",
-  projectId: "PROJECT_ID",
-  storageBucket: "STROAGE_BUCKET",
-  messagingSenderId: "MESSAGING_SENDER_ID",
-  appId: "APP_ID",
-  measurementId: "MEASUREMENT_ID",
+  apiKey: "AIzaSyCoIcLRMoON4RH3iNxExmnRqtmp-cBHuKs",
+  authDomain: "shopbazar-88b28.firebaseapp.com",
+  projectId: "shopbazar-88b28",
+  storageBucket: "shopbazar-88b28.appspot.com",
+  messagingSenderId: "272700488101",
+  appId: "1:272700488101:web:8df6eed38f3ee1e35d104c",
+  measurementId: "G-ZTV3GL66HM",
 };
-
-export const firebaseStroageURL = "YOUR_FIREBASE_STROAGE_URL";
+export const firebaseStorageURL = "gs://shopbazar-88b28.appspot.com";
+// export const firebaseStroageURL = "YOUR_FIREBASE_STROAGE_URL";
 
 export const addNewAddressFormControls = [
   {
@@ -213,6 +213,20 @@ export const addNewAddressFormControls = [
     type: "input",
     placeholder: "Enter your full address",
     label: "Address",
+    componentType: "input",
+  },
+  {
+    id: "location",
+    type: "input",
+    placeholder: "Enter your delivery Location",
+    label: "Location",
+    componentType: "input",
+  },
+  {
+    id: "contact",
+    type: "input",
+    placeholder: "Enter your contact number",
+    label: "Contact number",
     componentType: "input",
   },
   {
